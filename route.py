@@ -16,9 +16,7 @@ def get_drive_time(start_address, end_address, subscription_key):
 
 
 # Example usage
-subscription_key = "PdP957cAfxLMNkAEMe0U1r1tKHK7PPiIlHUcKI5EHek"
-start_address = "105 NE 24th Ct, Grimes IA 50111"
-end_address = "100 E Southside Dr, Polk City IA 50226"
+subscription_key = "SUBSCRIPTION_KEY"
 duration = get_drive_time(start_address, end_address, subscription_key)
 print(f"Drive time in seconds: {duration}")
 
